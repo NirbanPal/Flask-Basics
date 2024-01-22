@@ -170,10 +170,10 @@
 
         function getDelete(e){
             e.parentNode.parentNode.classList.add('d-none');
-            const iddel = parseInt(e.getAttribute('data-id'))
-            
+            const iddel = parseInt(e.getAttribute('data-id'));
+            const urlstr='/edit/'+iddel
             // window.location.reload()
-            fetch('/edit/${iddel}', {
+            fetch(urlstr, {
                 method: 'DELETE',
             })
             .then(response => {
