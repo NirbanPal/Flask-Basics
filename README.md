@@ -8,15 +8,15 @@ This is just a page where we can keep track of employee. we can Add, Read, Edit 
 1. Clone this git repo->
 
     ```git
-    git clone https://github.com/NirbanPal/ChatX.git
+    git clone https://github.com/NirbanPal/Flask-Basics.git
     ```
 
 2. Go to the directory->
 
    ```shell
-   cd ChatX
+   cd Flask-Basics
    ```
-3. Create virtual environment->
+3. install virtualenv(pip install virtualenv) if it is not installed and Create virtual environment->
 
    ```python
    python -m venv myenv
